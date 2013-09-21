@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-var applicationID = 'YOUR_APP_ID';
+var applicationID = 'f0864f49-db66-47c8-aab5-877ffc60bb70_3';
 var castApi;
 var currentActivityId = null;
 var currentReceiver;
@@ -22,7 +22,8 @@ var media = [
            'http://commondatastorage.googleapis.com/gtv-videos-bucket/ED_1280.mp4',
            'http://commondatastorage.googleapis.com/gtv-videos-bucket/tears_of_steel_1080p.mov',
            'http://commondatastorage.googleapis.com/gtv-videos-bucket/reel_2012_1280x720.mp4',
-           'http://commondatastorage.googleapis.com/gtv-videos-bucket/Google%20IO%202011%2045%20Min%20Walk%20Out.mp3'];
+           'http://commondatastorage.googleapis.com/gtv-videos-bucket/Google%20IO%202011%2045%20Min%20Walk%20Out.mp3',
+           'http://192.168.1.106:8080/Users/Varun/Videos/Cloud%20Atlas%20(2012)/Cloud%20Atlas%20(2012).mp4'];
 var currentMedia = media[0];
 
 if (window.cast && window.cast.isAvailable) {
